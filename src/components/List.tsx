@@ -3,9 +3,7 @@ import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { IconButton, CircularProgress, Alert, Box, Grid, Typography } from '@mui/material';
 import { BrokenImage, Star, StarOutline } from '@mui/icons-material';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
-
 import { useSearchContext } from '../contexts/SearchContext';
-import { fontWeight } from '@mui/system';
 
 type Address = {
   address1: string;
